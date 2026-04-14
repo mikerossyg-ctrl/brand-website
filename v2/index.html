@@ -499,86 +499,130 @@
   </section>
 
   <!-- ============================================
-       08. REVIEW SLIDER
+       08. REVIEWS — 3-column vertical infinite scroll
        ============================================ -->
   <section class="reviews">
-    <div class="container">
-      <div class="section-header">
+    <div class="container reviews__inner">
+      <div class="section-header section-header--center">
         <p class="eyebrow">REAL REVIEW</p>
         <h2 class="section-title">구독자가 직접 남긴<br />정기배송 후기</h2>
+        <p class="reviews__desc">12만 반려가족이 매달 받고 있는 진짜 변화를 확인해보세요.</p>
       </div>
 
-      <div class="swiper review-swiper">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
+      <div class="review-cols">
+        <div class="review-col review-col--1">
+          <div class="review-col__track">
             <article class="review">
               <div class="review__stars">★★★★★</div>
               <p class="review__text">노견이라 걱정 많았는데 3개월 구독 후 훨씬 활발해졌어요. 계단도 혼자 오릅니다.</p>
               <div class="review__meta">
-                <strong>김**</strong>
-                <span>비글 13세 · 정기배송 5회차</span>
+                <div class="review__avatar review__avatar--beagle" aria-hidden="true">🐶</div>
+                <div>
+                  <strong>김**</strong>
+                  <span>비글 13세 · 정기배송 5회차</span>
+                </div>
               </div>
             </article>
-          </div>
-
-          <div class="swiper-slide">
-            <article class="review">
-              <div class="review__stars">★★★★★</div>
-              <p class="review__text">밥 안 먹던 고양이가 유산균 추가 후 소화도 잘 되고 털 윤기가 돌아왔습니다.</p>
-              <div class="review__meta">
-                <strong>박**</strong>
-                <span>러시안블루 5세 · 정기배송 8회차</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="swiper-slide">
-            <article class="review">
-              <div class="review__stars">★★★★★</div>
-              <p class="review__text">수의사 상담에서 예상치 못한 결핍 성분을 발견. 정말 세심하게 분석해줍니다.</p>
-              <div class="review__meta">
-                <strong>이**</strong>
-                <span>말티즈 2세 · 정기배송 3회차</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="swiper-slide">
             <article class="review">
               <div class="review__stars">★★★★★</div>
               <p class="review__text">소분 포장이 편해요. 매일 한 봉지씩 주면 되니 빠트릴 일이 없습니다.</p>
               <div class="review__meta">
-                <strong>최**</strong>
-                <span>포메라니안 4세 · 정기배송 12회차</span>
+                <div class="review__avatar review__avatar--pom" aria-hidden="true">🐕</div>
+                <div>
+                  <strong>최**</strong>
+                  <span>포메라니안 4세 · 정기배송 12회차</span>
+                </div>
+              </div>
+            </article>
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p class="review__text">비뇨기 재발로 고생했는데 크랜베리 영양제 넣고부터 6개월째 깨끗합니다.</p>
+              <div class="review__meta">
+                <div class="review__avatar review__avatar--cat" aria-hidden="true">🐈</div>
+                <div>
+                  <strong>윤**</strong>
+                  <span>먼치킨 6세 · 정기배송 9회차</span>
+                </div>
               </div>
             </article>
           </div>
+        </div>
 
-          <div class="swiper-slide">
+        <div class="review-col review-col--2">
+          <div class="review-col__track">
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p class="review__text">밥 안 먹던 고양이가 유산균 추가 후 소화도 잘 되고 털 윤기가 돌아왔습니다.</p>
+              <div class="review__meta">
+                <div class="review__avatar review__avatar--russian" aria-hidden="true">🐱</div>
+                <div>
+                  <strong>박**</strong>
+                  <span>러시안블루 5세 · 정기배송 8회차</span>
+                </div>
+              </div>
+            </article>
             <article class="review">
               <div class="review__stars">★★★★★</div>
               <p class="review__text">슬개골 탈구 3단계 진단 이후 관절 영양제 구독 중. 수술 없이 버티고 있어요.</p>
               <div class="review__meta">
-                <strong>정**</strong>
-                <span>푸들 7세 · 정기배송 15회차</span>
+                <div class="review__avatar review__avatar--poodle" aria-hidden="true">🐩</div>
+                <div>
+                  <strong>정**</strong>
+                  <span>푸들 7세 · 정기배송 15회차</span>
+                </div>
+              </div>
+            </article>
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p class="review__text">계절성 가려움이 심했는데 알레르기 케어 시작하고 눈에 띄게 줄었어요. 긁는 횟수가 확 떨어졌습니다.</p>
+              <div class="review__meta">
+                <div class="review__avatar review__avatar--retriever" aria-hidden="true">🦮</div>
+                <div>
+                  <strong>강**</strong>
+                  <span>리트리버 5세 · 정기배송 7회차</span>
+                </div>
               </div>
             </article>
           </div>
+        </div>
 
-          <div class="swiper-slide">
+        <div class="review-col review-col--3">
+          <div class="review-col__track">
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p class="review__text">수의사 상담에서 예상치 못한 결핍 성분을 발견. 정말 세심하게 분석해줍니다.</p>
+              <div class="review__meta">
+                <div class="review__avatar review__avatar--malt" aria-hidden="true">🐕‍🦺</div>
+                <div>
+                  <strong>이**</strong>
+                  <span>말티즈 2세 · 정기배송 3회차</span>
+                </div>
+              </div>
+            </article>
             <article class="review">
               <div class="review__stars">★★★★☆</div>
               <p class="review__text">배송도 정확하고 건강 리포트 앱이 정말 유용합니다. 매달 기다려져요.</p>
               <div class="review__meta">
-                <strong>한**</strong>
-                <span>시바견 3세 · 정기배송 6회차</span>
+                <div class="review__avatar review__avatar--shiba" aria-hidden="true">🐕</div>
+                <div>
+                  <strong>한**</strong>
+                  <span>시바견 3세 · 정기배송 6회차</span>
+                </div>
+              </div>
+            </article>
+            <article class="review">
+              <div class="review__stars">★★★★★</div>
+              <p class="review__text">눈물 자국이 고민이었는데 루테인 복용 2개월차에 확실히 밝아졌어요.</p>
+              <div class="review__meta">
+                <div class="review__avatar review__avatar--scottish" aria-hidden="true">😺</div>
+                <div>
+                  <strong>서**</strong>
+                  <span>스코티시폴드 2세 · 정기배송 4회차</span>
+                </div>
               </div>
             </article>
           </div>
-
         </div>
-        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -680,7 +724,7 @@
           <strong>SUPPORT</strong>
           <a href="#">자주 묻는 질문</a>
           <a href="#">배송·반품</a>
-          <a href="#">1:1 문의</a>
+          <a href="#" data-inquiry-open>1:1 문의</a>
           <a href="#">수의사 상담</a>
         </div>
         <div>
@@ -724,6 +768,62 @@
       </div>
     </div>
   </footer>
+
+  <!-- ============================================
+       12. INQUIRY — FAB · Modal · Toast
+       ============================================ -->
+  <button type="button" class="inquiry-fab" id="inquiryFab" aria-label="문의하기" data-inquiry-open>
+    <span class="inquiry-fab__icon" aria-hidden="true">💬</span>
+    <span class="inquiry-fab__label">문의하기</span>
+  </button>
+
+  <div class="inquiry-modal" id="inquiryModal" role="dialog" aria-modal="true"
+       aria-labelledby="inquiryModalTitle" hidden>
+    <div class="inquiry-modal__backdrop" data-close></div>
+    <div class="inquiry-modal__panel" role="document">
+      <button type="button" class="inquiry-modal__close" data-close aria-label="닫기">×</button>
+
+      <div class="inquiry-modal__view" data-view="form">
+        <p class="eyebrow">CONTACT</p>
+        <h2 class="inquiry-modal__title" id="inquiryModalTitle">문의하기</h2>
+        <p class="inquiry-modal__subtitle">궁금한 점을 남겨주세요. 영업일 기준 1일 내 회신드립니다.</p>
+        <form class="inquiry-form" id="inquiryForm" novalidate>
+          <label class="inquiry-form__field">
+            <span class="inquiry-form__label">이름 <em>*</em></span>
+            <input type="text" name="name" required maxlength="40" autocomplete="name" />
+            <span class="inquiry-form__error" data-error-for="name"></span>
+          </label>
+          <label class="inquiry-form__field">
+            <span class="inquiry-form__label">연락처 <em>*</em></span>
+            <input type="text" name="contact" required maxlength="60"
+                   placeholder="010-0000-0000 또는 이메일" autocomplete="tel" />
+            <span class="inquiry-form__error" data-error-for="contact"></span>
+          </label>
+          <label class="inquiry-form__field">
+            <span class="inquiry-form__label">문의 내용 <em>*</em></span>
+            <textarea name="message" required maxlength="1000" rows="5"
+                      placeholder="반려동물 정보나 궁금하신 내용을 편하게 적어주세요."></textarea>
+            <span class="inquiry-form__error" data-error-for="message"></span>
+          </label>
+          <button type="submit" class="btn btn--primary btn--lg inquiry-form__submit">문의 보내기</button>
+        </form>
+      </div>
+
+      <div class="inquiry-modal__view" data-view="success" hidden>
+        <div class="inquiry-success">
+          <div class="inquiry-success__icon" aria-hidden="true">✓</div>
+          <h2 class="inquiry-success__title">문의가 접수되었습니다</h2>
+          <p class="inquiry-success__desc">빠른 시일 내 남겨주신 연락처로 회신드리겠습니다.</p>
+          <button type="button" class="btn btn--primary" data-close>확인</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="inquiryToast" role="status" aria-live="polite" hidden>
+    <span class="toast__icon" aria-hidden="true">✓</span>
+    <span>문의가 정상적으로 접수되었습니다.</span>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
